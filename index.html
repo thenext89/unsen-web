@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/res.css">
+    <link rel="stylesheet" href="css/header.css">
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- link bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- link bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+    <!-- link slick  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper-header">
+        <div class="topbar">
+            <div class="topbar-container row">
+                <div class="topbar-left col-md-6 col-12">
+                    <li><a href="#">Store Location</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </div>
+                <div class="topbar-right col-md-6 col-12">
+                    <div class="menu-language">
+                        <div class="menu-item-has-child" style="padding-right: 3px;">
+                            <a class="topbar-menu" href="#">EN<i class="fa-solid fa-chevron-down" style="margin-left: 5px;"></i></a>
+                            <div class="menu-item-child">
+                                <a class="child" href="#">ENG1</a>
+                                <a class="child" href="#">ENG2</a>
+                                <a class="child" href="#">ENG3</a>
+                            </div>
+                        </div>
+                        <div class="menu-item-has-child">
+                            <a class="topbar-menu" href="#">USD <i class="fa-solid fa-chevron-down"></i></a>
+                            <div class="menu-item-child">
+                                <a class="child" href="#">USD1</a>
+                                <a class="child" href="#">USD2</a>
+                                <a class="child" href="#">USD3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topbar-social">
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-display">
+        </div>
+        <div class="header-bot">
+            <div class="header-logo col-xl-1 col-lg-2">
+                <a class="logo-text" style="margin-left: -2px;" href="#">unsen.</a>
+                <div class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-title">
+                        <h4>MENU</h4>
+                        <button class="menu-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <div class="submenu-item" id="question1">
+                        <a href="#question1" class="submenu-link">
+                            DEMO
+                            <span></span>
+                        </a>
+                        <div class="answer">
+                            <ul>
+                                <li><a href="#">DEMO1</a></li>
+                                <li><a href="#">DEMO2</a></li>
+                                <li><a href="#">DEMO3</a></li>
+                                <li><a href="#">DEMO4</a></li>
+                                <li><a href="#">DEMO5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="submenu-item" id="question2">
+                        <a href="#question2" class="submenu-link">
+                            FEATURES
+                            <span></span>
+                        </a>
+                        <div class="answer">
+                            <ul>
+                                <li><a href="#">FEATURES1</a></li>
+                                <li><a href="#">FEATURES2</a></li>
+                                <li><a href="#">FEATURES3</a></li>
+                                <li><a href="#">FEATURES4</a></li>
+                                <li><a href="#">FEATURES5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="submenu-item" id="question3">
+                        <a href="#question3" class="submenu-link">
+                            SHOP
+                            <span></span>
+                        </a>
+                        <div class="answer">
+                            <ul>
+                                <li><a href="#">SHOP1</a></li>
+                                <li><a href="#">SHOP2</a></li>
+                                <li><a href="#">SHOP3</a></li>
+                                <li><a href="#">SHOP4</a></li>
+                                <li><a href="#">SHOP5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="submenu-item" id="question4">
+                        <a href="#question4" class="submenu-link">
+                            BLOG
+                            <span></span>
+                        </a>
+                        <div class="answer">
+                            <ul>
+                                <li><a href="#">BLOG1</a></li>
+                                <li><a href="#">BLOG2</a></li>
+                                <li><a href="#">BLOG3</a></li>
+                                <li><a href="#">BLOG4</a></li>
+                                <li><a href="#">BLOG5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="submenu-item" id="question4">
+                        <a href="#question5" class="submenu-link">
+                            LOOKBOOK
+                            <span></span>
+                        </a>
+                        <div class="answer">
+                            <ul>
+                                <li><a href="#">LOOKBOOK1</a></li>
+                                <li><a href="#">LOOKBOOK2</a></li>
+                                <li><a href="#">LOOKBOOK3</a></li>
+                                <li><a href="#">LOOKBOOK4</a></li>
+                                <li><a href="#">LOOKBOOK5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="submenu-item" id="question4">
+                        <a href="#question5" class="submenu-link">
+                            PAGES
+                            <span></span>
+                        </a>
+                        <div class="answer">
+                            <ul>
+                                <li><a href="#">PAGES1</a></li>
+                                <li><a href="#">PAGES2</a></li>
+                                <li><a href="#">PAGES3</a></li>
+                                <li><a href="#">PAGES4</a></li>
+                                <li><a href="#">PAGES5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-nav col-xl-7">
+                <ul class="main-menu">
+                    <li>
+                        <a class = "menu-item" href="#">DEMO</a>
+                        <div class="submenu-1">
+                            <a class="submenu-item1" href="#">DEMO1</a>
+                            <a class="submenu-item1" href="#">DEMO2</a>
+                            <a class="submenu-item1" href="#">DEMO3</a>
+                            <a class="submenu-item1" href="#">DEMO4</a>
+                            <a class="submenu-item1" href="#">DEMO5</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class = "menu-item"href="#">FEATURES</a>
+                        <div class="submenu-1">
+                            <a class="submenu-item1" href="#">FEATURES1</a>
+                            <a class="submenu-item1" href="#">FEATURES2</a>
+                            <a class="submenu-item1" href="#">FEATURES3</a>
+                            <a class="submenu-item1" href="#">FEATURES4</a>
+                            <a class="submenu-item1" href="#">FEATURES5</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class = "menu-item"href="#">SHOP</a>
+                        <div class="submenu-1">
+                            <a class="submenu-item1" href="#">SHOP1</a>
+                            <a class="submenu-item1" href="#">SHOP2</a>
+                            <a class="submenu-item1" href="#">SHOP3</a>
+                            <a class="submenu-item1" href="#">SHOP4</a>
+                            <a class="submenu-item1" href="#">SHOP5</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class = "menu-item"href="#">PRODUCTS</a>
+                        <div class="submenu-1">
+                            <a class="submenu-item1" href="#">PRODUCTS1</a>
+                            <a class="submenu-item1" href="#">PRODUCTS2</a>
+                            <a class="submenu-item1" href="#">PRODUCTS3</a>
+                            <a class="submenu-item1" href="#">PRODUCTS4</a>
+                            <a class="submenu-item1" href="#">PRODUCTS5</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class = "menu-item"href="#">BLOG</a>
+                        <div class="submenu-1">
+                            <a class="submenu-item1" href="#">BLOG1</a>
+                            <a class="submenu-item1" href="#">BLOG2</a>
+                            <a class="submenu-item1" href="#">BLOG3</a>
+                            <a class="submenu-item1" href="#">BLOG4</a>
+                            <a class="submenu-item1" href="#">BLOG5</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class = "menu-item"href="#">LOOKBOOK</a>
+                        <div class="submenu-1">
+                            <a class="submenu-item1" href="#">LOOKBOOK1</a>
+                            <a class="submenu-item1" href="#">LOOKBOOK2</a>
+                            <a class="submenu-item1" href="#">LOOKBOOK3</a>
+                            <a class="submenu-item1" href="#">LOOKBOOK4</a>
+                            <a class="submenu-item1" href="#">LOOKBOOK5</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class = "menu-item"href="#">PAGES</a>
+                        <div class="submenu-1">
+                            <a class="submenu-item1" href="#">PAGES1</a>
+                            <a class="submenu-item1" href="#">PAGES2</a>
+                            <a class="submenu-item1" href="#">PAGES3</a>
+                            <a class="submenu-item1" href="#">PAGES4</a>
+                            <a class="submenu-item1" href="#">PAGES5</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-right col-xl-4">
+                <ul>
+                    <li><a href=""><img src="./image/header/search.png" alt=""></i></a></li>
+                    <li><a href="#"><img src="./image/header/user.png" alt=""></a></li>
+                    <li style="margin-right: 5px;"><a href="#"><img src="./image/header/heart.png" alt=""></a></li>
+                    <li style="margin-right: 9px;"><a href="#"><img src="./image/header/shoping_bag.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-banner">
+        <div class="banner-slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators gap-2" style="">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="banner-container">
+                            <div class="banner-left">
+                                <div class="banner-content">
+                                    <div class="banner-subtitle">
+                                        DESIGN FROM UNSEN
+                                    </div>
+                                    <div class="banner-title">
+                                        <span>Spring Collection</span>
+                                        <span>2021</span>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button>Shop Collection</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-img">
+                                <img src="./image/banner/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner-container">
+                            <div class="banner-left">
+                                <div class="banner-content">
+                                    <div class="banner-subtitle">
+                                        DESIGN FROM UNSEN
+                                    </div>
+                                    <div class="banner-title">
+                                        <span>Spring Collection</span>
+                                        <span>2021</span>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button>Shop Collection</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-img">
+                                <img src="./image/banner/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner-container">
+                            <div class="banner-left">
+                                <div class="banner-content">
+                                    <div class="banner-subtitle">
+                                        DESIGN FROM UNSEN
+                                    </div>
+                                    <div class="banner-title">
+                                        <span>Spring Collection</span>
+                                        <span>2021</span>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button>Shop Collection</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-img">
+                                <img src="./image/banner/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-content">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="content-img">
+                    <img src="./image/content/content1.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="content-right">
+                    <div class="content-subtitle">
+                        <h4>20% OFF ALL ITEMS</h4>
+                    </div>
+                    <div class="content-title">
+                        <span>Roll Out Their Wares</span>
+                        <span>for Unsen</span>
+                    </div>
+                    <p class="des">
+                        Donec venenatis vulputate lorem roin sapien ipsum, porta a auctor
+                        <span>quis, euismod</span>
+                    </p>
+                    <div class="content-btn">
+                        <button>SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="content-right-img">
+                    <img src="./image/content/content2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="border-box">
+    </div>
+    <div class="wrapper-product">
+        <div class="product-content">
+            <div class="product-head">
+                <div class="title">
+                    <h3>Trending</h3>
+                </div>
+            </div>
+            <div class="row slider-product">
+                <div class="product-item col-xl-3 col-md-3 col-sm-6">
+                    <div class="product-img">
+                        <img src="./image/product/product1.jpg" alt="">
+                        <div class="product-effect">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="container-btn">
+                            <div class="quickview-btn">
+                                <a href="#">
+                                    <span>Quick View</span>
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="quickshop-btn">
+                                <a href="#">
+                                    <span>Quick Shop</span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h4>
+                                Brand-collar Popover Tunic
+                            </h4>
+                        </div>
+                        <div class="product-price">
+                            <span>
+                                $300.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item col-xl-3 col-md-3 col-sm-6">
+                    <div class="product-img">
+                        <img src="./image/product/product2.jpg" alt="">
+                        <div class="product-effect">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="container-btn">
+                            <div class="quickview-btn">
+                                <a href="#">
+                                    <span>Quick View</span>
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="quickshop-btn">
+                                <a href="#">
+                                    <span>Quick Shop</span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h4>
+                                Brand-collar Popover Tunic
+                            </h4>
+                        </div>
+                        <div class="product-price">
+                            <span>
+                                $300.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item col-xl-3 col-md-3 col-sm-6">
+                    <div class="product-img">
+                        <img src="./image/product/product3.jpg" alt="">
+                        <div class="product-effect">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="container-btn">
+                            <div class="quickview-btn">
+                                <a href="#">
+                                    <span>Quick View</span>
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="quickshop-btn">
+                                <a href="#">
+                                    <span>Quick Shop</span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h4>
+                                Brand-collar Popover Tunic
+                            </h4>
+                        </div>
+                        <div class="product-price">
+                            <span>
+                                $300.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item col-xl-3 col-md-3 col-sm-6">
+                    <div class="product-img">
+                        <img src="./image/product/product4.jpg" alt="">
+                        <div class="product-effect">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="container-btn">
+                            <div class="quickview-btn">
+                                <a href="#">
+                                    <span>Quick View</span>
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="quickshop-btn">
+                                <a href="#">
+                                    <span>Quick Shop</span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h4>
+                                Brand-collar Popover Tunic
+                            </h4>
+                        </div>
+                        <div class="product-price">
+                            <span>
+                                $300.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item col-xl-3 col-md-3 col-sm-6">
+                    <div class="product-img">
+                        <img src="./image/product/product1.jpg" alt="">
+                        <div class="product-effect">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="container-btn">
+                            <div class="quickview-btn">
+                                <a href="#">
+                                    <span>Quick View</span>
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="quickshop-btn">
+                                <a href="#">
+                                    <span>Quick Shop</span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h4>
+                                Brand-collar Popover Tunic
+                            </h4>
+                        </div>
+                        <div class="product-price">
+                            <span>
+                                $300.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item col-xl-3 col-md-3 col-sm-6">
+                    <div class="product-img">
+                        <img src="./image/product/product2.jpg" alt="">
+                        <div class="product-effect">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="container-btn">
+                            <div class="quickview-btn">
+                                <a href="#">
+                                    <span>Quick View</span>
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="quickshop-btn">
+                                <a href="#">
+                                    <span>Quick Shop</span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h4>
+                                Brand-collar Popover Tunic
+                            </h4>
+                        </div>
+                        <div class="product-price">
+                            <span>
+                                $300.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item col-xl-3 col-md-3 col-sm-6">
+                    <div class="product-img">
+                        <img src="./image/product/product3.jpg" alt="">
+                        <div class="product-effect">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="container-btn">
+                            <div class="quickview-btn">
+                                <a href="#">
+                                    <span>Quick View</span>
+                                    <i class="fa-solid fa-eye"></i>
+                                </a>
+                            </div>
+                            <div class="quickshop-btn">
+                                <a href="#">
+                                    <span>Quick Shop</span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <h4>
+                                Brand-collar Popover Tunic
+                            </h4>
+                        </div>
+                        <div class="product-price">
+                            <span>
+                                $300.00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-category">
+        <div class="category-content">
+            <div class="category-head">
+                <h4 class="category-title">
+                    Shop by category
+                </h4>
+                <h4 class="category-subtitle">
+                    View our wide range of over 2000 products by category
+                </h4>
+            </div>
+            <div class="category-slider row">
+                <div class="col-lg-4 col-12">
+                    <div class="category-img">
+                        <img src="./image/category/img1.png" alt="">
+                        <div class="category-btn">
+                            <button>Livings and Dinning</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="category-img">
+                        <img src="./image/category/img2.png" alt="">
+                        <div class="category-btn">
+                            <button>Bedroom</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="category-img">
+                        <img src="./image/category/img3.png" alt="">
+                        <div class="category-btn">
+                            <button>Outdoor</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="category-img">
+                        <img src="./image/category/img1.png" alt="">
+                        <div class="category-btn">
+                            <button>Livings and Dinning</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="category-img">
+                        <img src="./image/category/img2.png" alt="">
+                        <div class="category-btn">
+                            <button>Bedroom</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="category-img">
+                        <img src="./image/category/img3.png" alt="">
+                        <div class="category-btn">
+                            <button>Outdoor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-summersale">
+        <div class="summersale-container">
+            <img src="./image/summersale/img1.png" alt="">
+            <div class="summersale-content">
+                <div class="summersale-title">
+                    <h5>10% OFF ALL ITEMS</h5>
+                </div>
+                <div class="summersale-subtitle">
+                    <h4>Summer Sale</h4>
+                </div>
+                <div class="summersale-btn">
+                    <button>Shop Collection</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="wrapper-footer row">
+                <div class="footer-top-left col-md-6 ">
+                    <div class="footer-top-title">
+                        <h4>Don't miss out on a sale again.</h4>
+                    </div>
+                    <div class="footer-top-subtitle">
+                        <h5>Sign up now for sale alert & special offers.</h5>
+                    </div>
+                </div>
+                <div class="footer-top-right col-md-6 ">
+                    <div class="subscribe">
+                        <input type="text" name="" id="" placeholder="Email address">
+                        <a href="#">SUBSCRIBE</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="wrapper-footer">
+            <div class="footer-container row">
+                <div class="footer-contact col-xl-3 col-md-6">
+                    <div class="footer-logo">
+                        <a href="#">unsen.</a>
+                    </div>
+                    <div class="contact-content">
+                        <h5><i class="fa-solid fa-location-dot"></i> <span>30 Buttonwood St.Pataskala <span> OH
+                                    43062</span></span></h5>
+                        <h5 style="margin-top: 2px;"><i class="fa-solid fa-phone"></i>(+1)-613-333-0101</h5>
+                        <h5 style="margin-top: 18px;"><i class="fa-regular fa-envelope"></i>contact@company.com</h5>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#" class="icon-twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="icon-twitter"><i class="fa-solid fa-basketball"></i></a>
+                        <a href="#" class="icon-twitter"><i class="fa-brands fa-behance"></i></a>
+                        <a href="#" class="icon-twitter"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-about col-xl-3 col-md-3 col-6">
+                    <div class="footer-title">
+                        <h4>ABOUT US</h4>
+                    </div>
+                    <ul class="list-link">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Store Locator</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories col-xl-3 col-md-3 col-6">
+                    <div class="footer-title">
+                        <h4>CATEGORIES</h4>
+                    </div>
+                    <ul class="list-link">
+                        <li><a href="#">Bedroom</a></li>
+                        <li><a href="#">Lounges & Sofa</a></li>
+                        <li><a href="#">Outdoor</a></li>
+                        <li><a href="#">Homewares</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Online Exclusive</a></li>
+                    </ul>
+                </div>
+                <div class="footer-signup col-xl-3 col-12">
+                    <div class="footer-title">
+                        <h4>NEWSLETTER SIGNUP</h4>
+                        <h5 class="footer-subtitle">Subscribe to our newsletter and get 10% off your fist purchase</h5>
+                    </div>
+                    <div class="send-email">
+                        <input type="text" name="" id="" class="footer-inp" placeholder="Email address">
+                        <button><i class="fa-sharp fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bot">
+            <div class="footer-bot-container row">
+                <div class="footer-coppyright col-md-6 col-12">
+                    <span>© 2019 Unsen Furniture | All Rights Reserved</span>
+                </div>
+                <div class="footer-pay col-md-6 col-12">
+                    <ul>
+                        <li><a href="#"></a><img src="./image/footer/img1.png" alt=""></li>
+                        <li><a href="#"></a><img src="./image/footer/img2.png" alt=""></li>
+                        <li><a href="#"></a><img src="./image/footer/img3.png" alt=""></li>
+                        <li><a href="#"></a><img src="./image/footer/img4.png" alt=""></li>
+                        <li><a href="#"></a><img src="./image/footer/img5.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="./js/script.js"></script>
+    <script src="js/slick.js"></script>
+</body>
+
+</html>

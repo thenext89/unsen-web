@@ -1,0 +1,202 @@
+@media (max-width:1400px) {
+
+    /* =========== header =============*/
+    /* =========== banner =============*/
+    /* =========== content =============*/
+    .content-right {
+        margin-top: 0px;
+    }
+    .content-btn button{
+        margin-bottom: 50px;
+    }
+    .content-right-img{
+        margin-bottom: 50px;
+    }
+
+    /* =========== product =============*/
+    /* =========== category =============*/
+    /* =========== footer =============*/
+}
+
+@media (max-width:1200px) {
+
+    /* =========== header =============*/
+    /* =========== banner =============*/
+    /* =========== content =============*/
+    /* =========== product =============*/
+    /* =========== category =============*/
+    /* =========== footer =============*/
+    .wrapper-footer,
+    .footer-bot-container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width:1024px) {
+
+    /* =========== header =============*/
+    .header-bot .menu {
+        display: block;
+    }
+
+    .header-bot .header-nav {
+        display: none;
+    }
+
+    /* =========== banner =============*/
+    .banner-slider #carouselExampleIndicators .carousel-indicators {
+        display: none;
+    }
+
+    /* =========== content =============*/
+    .des span {
+        display: unset;
+    }
+
+    /* =========== product =============*/
+    /* =========== category =============*/
+}
+
+@media (max-width:992px) {
+
+    /* =========== header =============*/
+    /* =========== banner =============*/
+    .banner-img {
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .banner-content {
+        width: 100%;
+        left: 50%;
+        top: 50% !important;
+        transform: translate(-50%, -50%);
+        top: 25%;
+    }
+
+    .banner-subtitle {
+        display: none;
+    }
+
+    .banner-title span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /* =========== content =============*/
+    /* =========== product =============*/
+    .product-content{
+        padding-bottom: 30px;
+    }
+    /* =========== category =============*/
+    .category-content{
+        padding-bottom: 100px;
+    }
+    /* =========== summersale =============*/
+    .summersale-content{
+        background-color: rgba(255 255 255 /.5) !important;
+    }
+    /* =========== footer =============*/
+
+    .wrapper-footer,
+    .footer-bot-container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* =========== header =============*/
+
+    .topbar-container {
+        height: auto !important;
+    }
+
+    .topbar-left,
+    .topbar-right {
+        justify-content: center !important;
+    }
+
+    /* =========== banner =============*/
+    .banner-button {
+        margin-top: 20px;
+    }
+
+    /* =========== content =============*/
+    .content-right {
+        margin-top: 20px;
+    }
+
+    .content-btn button {
+        margin-bottom: 30px;
+    }
+
+    /* =========== product =============*/
+    .category-btn button{
+        min-width: 250px;
+        padding: 0 15px;
+        height: 85px;
+    }
+    /* =========== category =============*/
+    /* =========== summersale =============*/
+    .summersale-content{
+        max-width: 420px !important;
+        padding: 20px 0 !important;
+        background-color: rgba(255 255 255 /.5) !important;
+    }
+    /* =========== footer =============*/
+    .footer-coppyright {
+        text-align: center;
+    }
+
+    .footer-pay ul {
+        justify-content: center;
+    }
+    .subscribe{
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .footer-contact{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:576px) {
+
+    /* =========== header =============*/
+    .header-right ul li:nth-child(2),
+    .header-right ul li:nth-child(3) {
+        display: none;
+    }
+
+    /* =========== banner =============*/
+    .banner-title span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .banner-button {
+        margin-top: 5px;
+    }
+
+    /* =========== content =============*/
+    .content-right-img {
+        margin-bottom: 30px;
+    }
+
+    /* =========== product =============*/
+    /* =========== category =============*/
+    /* =========== summersale =============*/
+    .summersale-content{
+        margin: 0 !important;
+        max-width: 250px !important;
+        padding: 5px 0 !important;
+    }
+    .summersale-subtitle h4{
+        font-size: 30px !important;
+    }
+    .summersale-title h5{
+        display: none;
+    }
+    /* =========== footer =============*/
+}
