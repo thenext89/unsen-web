@@ -186,6 +186,7 @@
 
     /* =========== product =============*/
     /* =========== category =============*/
+
     /* =========== summersale =============*/
     .summersale-content{
         margin: 0 !important;
@@ -199,4 +200,10 @@
         display: none;
     }
     /* =========== footer =============*/
+}
+@media (max-width:350px) {
+    /* ============== category ============ */
+    .category-btn button{
+        height: 60px;
+    }
 }

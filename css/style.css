@@ -442,8 +442,8 @@ img {
 
 .slick-arrow {
     z-index: 5;
-    width: 30px !important;
-    height: 30px;
+    width: 35px !important;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -461,15 +461,15 @@ img {
 .slick-prev-custom {
     border: 1px solid #000;
     position: absolute;
-    left: .7%;
-    top: 43.5%
+    left: 11px;
+    top: 212px;
 }
 
 .slick-next-custom {
     border: 1px solid #000;
     position: absolute;
-    right: .7%;
-    top: 43.5%
+    right: 11px;
+    top: 212px;
 }
 
 /* .slider-product{
