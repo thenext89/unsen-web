@@ -22,20 +22,20 @@
     padding: 0 !important;
 }
 
-.topbar-left li {
+.topbar-left a {
     padding: 0 10px;
 }
 
-.topbar-left li:first-child {
+.topbar-left a:first-child {
     padding: 0 10px 0 0;
 }
 
-.topbar-left li:nth-child(2) {
+.topbar-left a:nth-child(2) {
     border-left: 0.5px solid rgba(255, 255, 255, 0.2);
     border-right: 0.5px solid rgba(255, 255, 255, 0.2);
 }
 
-.topbar-left li a {
+.topbar-left a {
     color: #fff;
     font-size: 12px;
     font-family: Poppins regular;
@@ -93,12 +93,12 @@
     padding-left: 18px;
 }
 
-.topbar-social li:not(:last-child) {
+.topbar-social a:not(:last-child) {
     padding-right: 12px;
     margin-right: 10px;
 }
 
-.topbar-social li i {
+.topbar-social a i {
     font-size: 14px;
     color: #fff;
 }
