@@ -1,7 +1,14 @@
 .wrapper-header {
     max-width: 1920px;
-}
 
+}
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
 .topbar {
     background-color: var(--textColor);
 }
@@ -133,6 +140,7 @@
     margin: 0 auto;
     align-items: center;
     height: 72px;
+    background-color: #fff;
 }
 
 .header-bot a {
